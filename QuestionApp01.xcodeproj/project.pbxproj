@@ -17,6 +17,8 @@
 		8D2EEF152406D42900127801 /* batsuSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8D2EEF142406D42900127801 /* batsuSound.mp3 */; };
 		8D2EEF172406D44B00127801 /* sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8D2EEF162406D44B00127801 /* sound.mp3 */; };
 		8D2EEF1C2406D6E700127801 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2EEF1B2406D6E700127801 /* NextViewController.swift */; };
+		8D2EEF1E2406E0FE00127801 /* ImagesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2EEF1D2406E0FE00127801 /* ImagesModel.swift */; };
+		8D2EEF202406E20E00127801 /* imagesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2EEF1F2406E20E00127801 /* imagesList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		8D2EEF142406D42900127801 /* batsuSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = batsuSound.mp3; sourceTree = "<group>"; };
 		8D2EEF162406D44B00127801 /* sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound.mp3; sourceTree = "<group>"; };
 		8D2EEF1B2406D6E700127801 /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
+		8D2EEF1D2406E0FE00127801 /* ImagesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesModel.swift; sourceTree = "<group>"; };
+		8D2EEF1F2406E20E00127801 /* imagesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imagesList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 		8D2EEF1A2406D54900127801 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				8D2EEF1D2406E0FE00127801 /* ImagesModel.swift */,
+				8D2EEF1F2406E20E00127801 /* imagesList.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -181,6 +187,8 @@
 				8D2EEF1C2406D6E700127801 /* NextViewController.swift in Sources */,
 				8D2EEEFF2406D00500127801 /* AppDelegate.swift in Sources */,
 				8D2EEF012406D00500127801 /* SceneDelegate.swift in Sources */,
+				8D2EEF1E2406E0FE00127801 /* ImagesModel.swift in Sources */,
+				8D2EEF202406E20E00127801 /* imagesList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -103,11 +103,18 @@
                                 <rect key="frame" x="143" y="384" width="128" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="home"/>
+                                <connections>
+                                    <action selector="back:" destination="sYe-LT-LPB" eventType="touchUpInside" id="yI4-Ip-DIc"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.77152914214988977" green="1" blue="0.84474592795855319" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="Kq9-Pb-FMG"/>
                     </view>
+                    <connections>
+                        <outlet property="correctLabel" destination="XFv-6u-9mn" id="MwP-df-HDB"/>
+                        <outlet property="wrongLabel" destination="X8E-4U-4Ue" id="kK9-Fc-owE"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1ta-oe-icV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
