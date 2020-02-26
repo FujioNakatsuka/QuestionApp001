@@ -93,7 +93,7 @@ class ViewController: UIViewController {
             
         }else{
             
-            print("問題終了")
+            print("問題終了だぞ")
             
             performSegue(withIdentifier: "next", sender: nil)
             
